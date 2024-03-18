@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Spirit_of_Fighter.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\phoenix\phoenix001.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\phoenix\phoenix002.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\phoenix\phoenix003.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\phoenix\phoenix004.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fall\ravenfall001.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fall\ravenfall002.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fall\ravenfall003.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fall\ravenfall004.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fall\ravenfall005.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi001.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi002.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi003.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi004.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi005.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi006.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi007.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi008.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi009.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi010.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi011.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi012.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi013.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengi014.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\aim.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\redshoot.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\phoenix\phoenixr001.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\phoenix\phoenixr002.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\phoenix\phoenixr003.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir002.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir003.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir004.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir005.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir006.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir007.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir008.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir009.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir010.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir011.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir012.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir013.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir014.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\sengi\sengir001.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\summer.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\instruction.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="image\raven_fly\ravens(1).png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fly\ravens(2).png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fly\ravens(3).png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fly\ravens(4).png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fly\ravens(5).png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fly\ravens(6).png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fly\ravens(7).png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fly\ravens(8).png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fly\ravens(9).png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\raven_fly\ravens(10).png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\bullet2.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\ravens\1.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\ravens\2.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\ravens\3.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\ravens\4.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\ravens\5.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\ravens\6.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\ravens\7.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\ravens\8.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\ravens\9.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\ravens\10.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="image\highscorepage.png">
+      <Filter>Header Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iGraphics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="birdsengi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="HighScore.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

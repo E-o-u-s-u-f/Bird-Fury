@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{211E8F5C-88F1-41EC-9DD4-D2C921A74A26}</ProjectGuid>
+    <RootNamespace>mygame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Spirit_of_Fighter.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\aim.png" />
+    <Image Include="image\bullet2.png" />
+    <Image Include="image\highscorepage.png" />
+    <Image Include="image\instruction.png" />
+    <Image Include="image\phoenix\phoenix001.png" />
+    <Image Include="image\phoenix\phoenix002.png" />
+    <Image Include="image\phoenix\phoenix003.png" />
+    <Image Include="image\phoenix\phoenix004.png" />
+    <Image Include="image\phoenix\phoenixr001.png" />
+    <Image Include="image\phoenix\phoenixr002.png" />
+    <Image Include="image\phoenix\phoenixr003.png" />
+    <Image Include="image\ravens\1.png" />
+    <Image Include="image\ravens\10.png" />
+    <Image Include="image\ravens\2.png" />
+    <Image Include="image\ravens\3.png" />
+    <Image Include="image\ravens\4.png" />
+    <Image Include="image\ravens\5.png" />
+    <Image Include="image\ravens\6.png" />
+    <Image Include="image\ravens\7.png" />
+    <Image Include="image\ravens\8.png" />
+    <Image Include="image\ravens\9.png" />
+    <Image Include="image\raven_fall\ravenfall001.png" />
+    <Image Include="image\raven_fall\ravenfall002.png" />
+    <Image Include="image\raven_fall\ravenfall003.png" />
+    <Image Include="image\raven_fall\ravenfall004.png" />
+    <Image Include="image\raven_fall\ravenfall005.png" />
+    <Image Include="image\raven_fly\ravens(1).png" />
+    <Image Include="image\raven_fly\ravens(10).png" />
+    <Image Include="image\raven_fly\ravens(2).png" />
+    <Image Include="image\raven_fly\ravens(3).png" />
+    <Image Include="image\raven_fly\ravens(4).png" />
+    <Image Include="image\raven_fly\ravens(5).png" />
+    <Image Include="image\raven_fly\ravens(6).png" />
+    <Image Include="image\raven_fly\ravens(7).png" />
+    <Image Include="image\raven_fly\ravens(8).png" />
+    <Image Include="image\raven_fly\ravens(9).png" />
+    <Image Include="image\redshoot.png" />
+    <Image Include="image\sengi\sengi001.png" />
+    <Image Include="image\sengi\sengi002.png" />
+    <Image Include="image\sengi\sengi003.png" />
+    <Image Include="image\sengi\sengi004.png" />
+    <Image Include="image\sengi\sengi005.png" />
+    <Image Include="image\sengi\sengi006.png" />
+    <Image Include="image\sengi\sengi007.png" />
+    <Image Include="image\sengi\sengi008.png" />
+    <Image Include="image\sengi\sengi009.png" />
+    <Image Include="image\sengi\sengi010.png" />
+    <Image Include="image\sengi\sengi011.png" />
+    <Image Include="image\sengi\sengi012.png" />
+    <Image Include="image\sengi\sengi013.png" />
+    <Image Include="image\sengi\sengi014.png" />
+    <Image Include="image\sengi\sengir001.png" />
+    <Image Include="image\sengi\sengir002.png" />
+    <Image Include="image\sengi\sengir003.png" />
+    <Image Include="image\sengi\sengir004.png" />
+    <Image Include="image\sengi\sengir005.png" />
+    <Image Include="image\sengi\sengir006.png" />
+    <Image Include="image\sengi\sengir007.png" />
+    <Image Include="image\sengi\sengir008.png" />
+    <Image Include="image\sengi\sengir009.png" />
+    <Image Include="image\sengi\sengir010.png" />
+    <Image Include="image\sengi\sengir011.png" />
+    <Image Include="image\sengi\sengir012.png" />
+    <Image Include="image\sengi\sengir013.png" />
+    <Image Include="image\sengi\sengir014.png" />
+    <Image Include="image\summer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="birdsengi.h" />
+    <ClInclude Include="iGraphics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="HighScore.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
